@@ -20,13 +20,15 @@
     <TableRow>
 
         <TextView
+            android:id="@+id/textView3"
             android:layout_height="wrap_content"
-            android:text="密码："/>
+            android:text="密码：" />
 
         <EditText
             android:id="@+id/password"
             android:layout_height="wrap_content"
-            android:hint="请输入密码" />
+            android:hint="请输入密码"
+            android:inputType="textPassword" />
     </TableRow>
 
     <TableRow>

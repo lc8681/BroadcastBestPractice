@@ -36,11 +36,6 @@ public class LoginActivity extends BaseActivity {
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(intent);
                     finish();
-                }
-                if (account.equals("lc8681") && password.equals("123456")) {
-                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                    startActivity(intent);
-                    finish();
                 }else {
                     Toast.makeText(LoginActivity.this, "账号或者密码错误,请重试。", Toast.LENGTH_SHORT).show();
                 }
